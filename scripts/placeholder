@@ -1,1 +1,15 @@
+Purpose: The main purpose of this script is to create a Database named Datawarehouse and 
+The Use function helps use the same Database, and in the next step, we create the Schemas for each layer.
 
+Use master;
+
+Create Database DataWarehouse;
+
+Use Datawarehouse;
+
+Create SCHEMA Bronze;
+Go
+Create SCHEMA Silver;
+GO
+Create SCHEMA Gold;
+Go
