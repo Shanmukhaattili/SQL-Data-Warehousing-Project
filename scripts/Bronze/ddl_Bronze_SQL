@@ -1,0 +1,51 @@
+Explanation : 
+
+
+
+===========================================================================================
+Loading Bronze Layer
+===========================================================================================
+-------------------------------------------------------------------------------------------
+Loading CRM Tables
+-------------------------------------------------------------------------------------------
+>>Truncating Table : Bronze.crm_cust_info
+Inserting Data into : Bronze.crm_cust_info
+
+(18494 rows affected)
+>> Load Duration : 1 seconds
+----------------------------------------------------------------------------------------------
+
+(60398 rows affected)
+>>Truncating Table : Bronze.crm_prd_info
+Inserting Data into : Bronze.crm_prd_info
+
+(397 rows affected)
+>> Load Duration : 0 seconds
+----------------------------------------------------------------------------------------------
+>>Truncating Table : Bronze.crm_sales_details
+Inserting Data into : Bronze.crm_sales_details
+
+(60398 rows affected)
+>> Load Duration : 0 seconds
+----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+Loading ERP Tables
+-------------------------------------------------------------------------------------------
+>>Truncating Table : Bronze.erp_cust_az12
+Inserting Data into : Bronze.erp_cust_az12
+
+(18484 rows affected)
+>> Load Duration : 0 seconds
+----------------------------------------------------------------------------------------------
+>>Truncating Table : Bronze.erp_loc_a101
+Inserting Data into : Bronze.erp_loc_a101
+
+(18484 rows affected)
+>> Load Duration : 0 seconds
+----------------------------------------------------------------------------------------------
+>>Truncating Table : Bronze.erp_px_cat_gv12
+Inserting Data into : Bronze.erp_px_cat_gv12
+
+(37 rows affected)
+>> Load Duration : 0 seconds
+----------------------------------------------------------------------------------------------
